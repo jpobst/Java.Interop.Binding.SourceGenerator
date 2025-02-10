@@ -47,6 +47,12 @@ generators instead, so we need to disable the default binding in the `.csproj`:
 </ItemGroup>
 ```
 
+Additionally, we need to allow `unsafe` code for the binding:
+
+```xml
+<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+```
+
 Create a new class called `Mathinator` that uses the source generator attributes to define the
 API we wish to bind:
 
@@ -85,3 +91,11 @@ protected override void OnCreate (Bundle? savedInstanceState)
 	Toast.MakeText (this, $"5 + 15 = {mathinator.Add (5, 15)}", ToastLength.Long).Show ();
 }
 ```
+
+Running the app should now show a toast with the Java library being called:
+
+```cli
+dotnet run
+```
+
+https://github.com/user-attachments/assets/94284180-4ab7-4eb8-98f6-8c90771d4f07
