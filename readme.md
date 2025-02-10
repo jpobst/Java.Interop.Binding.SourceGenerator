@@ -98,4 +98,4 @@ Running the app should now show a toast with the Java library being called:
 dotnet run
 ```
 
-https://github.com/user-attachments/assets/94284180-4ab7-4eb8-98f6-8c90771d4f07
+![Image](https://github.com/user-attachments/assets/94284180-4ab7-4eb8-98f6-8c90771d4f07)
