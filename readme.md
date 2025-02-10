@@ -87,7 +87,7 @@ protected override void OnCreate (Bundle? savedInstanceState)
 	// Set our view from the "main" layout resource
 	SetContentView (Resource.Layout.activity_main);
 
-	var mathinator = new Mathinator ();
+	var mathinator = new sample.Mathinator ();
 	Toast.MakeText (this, $"5 + 15 = {mathinator.Add (5, 15)}", ToastLength.Long).Show ();
 }
 ```
