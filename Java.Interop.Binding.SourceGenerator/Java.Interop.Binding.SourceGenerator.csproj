@@ -7,8 +7,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
     
+    <PackageId>XamPrototype.Android.Binding.SourceGenerator</PackageId>
     <Description>Prototype feature for creating .NET for Android "slim" bindings using Roslyn source generators.</Description>
     <Version>0.0.1</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/jpobst/Java.Interop.Binding.SourceGenerator</PackageProjectUrl>
     <PackageReadmeFile Condition="Exists('$(MSBuildProjectDirectory)/readme.md')">readme.md</PackageReadmeFile>
     <PackageOutputPath>../nupkg</PackageOutputPath>
